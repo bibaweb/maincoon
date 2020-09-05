@@ -1,0 +1,41 @@
+.header__main-pic {
+  background-image: url(../../../images/main-coon_desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1028px;
+  height: 685px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1600px) {
+  .header__main-pic {
+    padding-right: 200px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header__main-pic {
+    width: 850px;
+    height: 614px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .header__main-pic {
+    background-image: url(../../../images/main-coon_tablet.png);
+    width: 652px;
+    height: 532px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__main-pic {
+    background-image: url(../../../images/main-coon_mobile.png);
+    width: 275px;
+    height: 256px;
+  }
+}

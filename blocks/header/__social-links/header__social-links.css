@@ -1,0 +1,16 @@
+.header__social-links {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 50px 0 0;
+  padding: 0 0 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1100px) {
+  .header__social-links {
+    flex-direction: row;
+    margin: 60px 0 45px;
+    padding: 0;
+  }
+}

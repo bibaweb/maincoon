@@ -1,0 +1,30 @@
+.header__description {
+  margin: 30px 0 0;
+  padding: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #A07B50;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1140px) {
+  .header__description {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__description {
+    font-size: 0.875rem;
+    line-height: 1.42;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__description {
+    text-align: center;
+  }
+}
