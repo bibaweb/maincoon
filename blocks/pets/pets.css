@@ -1,0 +1,11 @@
+@import url(./__title/pets__title.css);
+@import url(./__description/pets__description.css);
+@import url(./__menu/pets__menu.css);
+@import url(./__menu-item/pets__menu-item.css);
+@import url(./__grid/pets__grid.css);
+@import url(./__grid-item/pets__grid-item.css);
+@import url(./__button/pets__button.css);
+
+.pets {
+  margin: 0 auto;
+}

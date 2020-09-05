@@ -1,0 +1,10 @@
+.pets__button {
+  margin: 55px auto 5px;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .pets__button {
+    margin-top: 45px;
+  }
+}

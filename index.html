@@ -16,24 +16,24 @@
       <button class="header__geo">Новосибирск</button>
       <h1 class="header__title">Питомник Мейн-Кунов</h1>
       <p class="header__description">Первый питомник с расширенным спектром услуг</p>
-      <button class="header__button" type="button">Смотреть котиков</button>
+      <button class="button" type="button">Смотреть котиков</button>
     </div>
 
     <div class="header__media">
       <div class="header__line"></div>
       <ul class="header__social-links">
         <li>
-          <a class="header__social-link" href="https://vk.com/">
+          <a class="header__social-link" href="https://vk.com/" target="_blank">
             <img class="header__social-icon" alt="vkontakte logo" src="./images/vk-icon.svg">
           </a>
         </li>
         <li>
-          <a class="header__social-link" href="https://twitter.com/">
+          <a class="header__social-link" href="https://twitter.com/" target="_blank">
             <img class="header__social-icon" alt="twitter logo" src="./images/twitter-icon.svg">
           </a>
         </li>
         <li>
-          <a class="header__social-link" href="https://facebook.com/">
+          <a class="header__social-link" href="https://facebook.com/" target="_blank">
             <img class="header__social-icon" alt="facebook logo" src="./images/facebook-icon.svg">
           </a>
         </li>
@@ -42,7 +42,24 @@
     <div class="header__main-pic"></div>
   </header>
 
-  <main class="content"></main>
+  <main class="content">
+    <section class="pets section">
+      <h2 class="pets__title" name="pets">Питомцы</h2>
+      <p class="pets__description">Все представители нашего питомника имеют ветеринарный паспорт 
+        с отметками о прививках и документ с родословной</p>
+      <ul class="pets__menu">
+        <li class="pets__menu-item pets__menu-item_active">Коты</li>
+        <li class="pets__menu-item">Кошки</li>
+        <li class="pets__menu-item">Котята</li>
+      </ul>
+      <div class="pets__grid">
+        <img src="./images/grid-cat1.jpg" alt="Белый кот" class="pets__grid-item pets__grid-item_type_upper">
+        <img src="./images/grid-cat3.png" alt="Черный кот" class="pets__grid-item pets__grid-item_type_big">
+        <img src="./images/grid-cat2.jpg" alt="Коричневый кот" class="pets__grid-item pets__grid-item_type_down">
+      </div>
+      <button class="pets__button button" type="button">Смотреть больше</button>
+    </section>
+  </main>
 
   <footer class="footer"></footer>
 </body>

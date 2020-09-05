@@ -1,0 +1,25 @@
+.pets__menu-item {
+  margin-right: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125;
+  line-height: 1.16;
+  color: #5b595c;
+  transition: opacity ease-out 1s;
+  cursor: pointer;
+}
+
+.pets__menu-item:last-child {
+  margin-right: 0;
+}
+
+.pets__menu-item:hover {
+  opacity: .4;
+}
+
+@media screen and (max-width: 1100px) {
+  .pets__menu-item {
+    margin-right: 45px;
+  }
+}

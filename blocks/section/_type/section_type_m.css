@@ -1,4 +1,4 @@
-.size_m {
+.section_type_m {
   /*для хэдера и раздела наша команда*/
-  padding: 0 90px 0 90px;
+  padding: 0 90px;
 }

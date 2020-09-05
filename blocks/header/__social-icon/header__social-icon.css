@@ -2,6 +2,13 @@
   width: 15px;
   height: 10px;
   margin: 0 0 15px;
+  opacity: 1;
+  transition: opacity ease-out 1s;
+  cursor: pointer;
+}
+
+.header__social-icon:hover {
+  opacity: .4;
 }
 
 @media screen and (max-width: 1100px) {

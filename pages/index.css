@@ -1,3 +1,13 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/section/section.css);
+/* @import url(../blocks/section/_type/section_type_xl.css);
+@import url(../blocks/section/_type/section_type_l.css);
+@import url(../blocks/section/_type/section_type_m.css); */
 @import url(../blocks/header/header.css);
+@import url(../blocks/pets/pets.css);
+@import url(../blocks/pets/__grid-item/_type/pets__grid-item_type_big.css);
+@import url(../blocks/pets/__grid-item/_type/pets__grid-item_type_upper.css);
+@import url(../blocks/pets/__grid-item/_type/pets__grid-item_type_down.css);
+@import url(../blocks/pets/__menu-item/_active/pets__menu-item_active.css);
