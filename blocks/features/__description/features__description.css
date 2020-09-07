@@ -1,0 +1,15 @@
+.features__description {
+  width: 735px;
+}
+
+@media screen and (max-width: 900px) {
+  .features__description {
+    width: 470px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features__description {
+    width: 280px;
+  }
+}

@@ -1,0 +1,16 @@
+.features__group {
+  position: relative;
+  height: 550px;
+}
+
+@media screen and (max-width: 900px) {
+  .features__group {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features__group {
+    height: 100px;
+  }
+}

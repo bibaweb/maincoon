@@ -1,0 +1,26 @@
+.features__black-disc {
+  background-color: black;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .features__black-disc {
+    width: 315px;
+    height: 315px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features__black-disc {
+    width: 215px;
+    height: 215px;
+  }
+}

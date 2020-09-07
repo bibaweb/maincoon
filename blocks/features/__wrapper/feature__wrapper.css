@@ -1,0 +1,16 @@
+.feature__wrapper {
+  position: relative;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 900px) {
+  .feature__wrapper {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .feature__wrapper {
+    margin-top: 120px;
+  }
+}

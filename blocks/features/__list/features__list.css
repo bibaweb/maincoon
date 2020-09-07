@@ -1,0 +1,27 @@
+.features__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+
+
+@media screen and (max-width: 620px) {
+  .features__list {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 120px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .features__list {
+    padding-left: 20px;
+  }
+}

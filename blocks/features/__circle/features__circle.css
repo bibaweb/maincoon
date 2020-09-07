@@ -1,0 +1,27 @@
+.features__circle {
+  background-color: transparent;
+  border: 0.5px #a07b50 solid;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .features__circle {
+    width: 385px;
+    height: 385px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features__circle {
+    width: 270px;
+    height: 270px;
+  }
+}

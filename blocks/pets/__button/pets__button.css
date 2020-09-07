@@ -6,5 +6,6 @@
 @media screen and (max-width: 600px) {
   .pets__button {
     margin-top: 45px;
+    margin-bottom: 0;
   }
 }

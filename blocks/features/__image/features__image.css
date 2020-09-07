@@ -1,0 +1,30 @@
+.features__image {
+  background-image: url(../../../images/features-cat_desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 520px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .features__image {
+    background-image: url(../../../images/features-cat_tablet.png);
+    width: 340px;
+    height: 510px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features__image {
+    background-image: url(../../../images/features-cat_mobile.png);
+    width: 260px;
+    height: 285px;
+  }
+}

@@ -1,0 +1,13 @@
+@import url(./__title/features__title.css);
+@import url(./__description/features__description.css);
+@import url(./__wrapper/feature__wrapper.css);
+@import url(./__list/features__list.css);
+@import url(./__list-item/features__list-item.css);
+@import url(./__group/features__group.css);
+@import url(./__black-disc/features__black-disc.css);
+@import url(./__circle/features__circle.css);
+@import url(./__image/features__image.css);
+
+.features {
+  margin: 0 auto;
+}
