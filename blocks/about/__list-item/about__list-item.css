@@ -1,0 +1,20 @@
+.about__list-item {
+  padding: 0;
+  width: 360px;
+  height: 300px;
+  background-color: #1F1C1D;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.about__list-item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about__list-item {
+    width: 260px;
+    height: 260px;
+  }
+}

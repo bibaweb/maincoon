@@ -1,0 +1,22 @@
+.about__list-wrapper {
+  width: 320px;
+  height: 260px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: background-color linear .3s;
+}
+
+.about__list-item .about__list-wrapper:hover {
+  background-color: #A07B50;
+}
+
+@media screen and (max-width: 600px) {
+  .about__list-wrapper {
+    width: 220px;
+    height: 220px;
+  }
+}

@@ -1,0 +1,15 @@
+.about__description {
+  width: 700px;
+}
+
+@media screen and (max-width: 900px) {
+  .about__description {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__description {
+    width: 280px;
+  }
+}

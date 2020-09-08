@@ -1,0 +1,12 @@
+@import url(./__title/about__title.css);
+@import url(./__description/about__description.css);
+@import URL(./__list-wrapper/about__list-wrapper.css);
+@import url(./__list/about__list.css);
+@import url(./__list-item/about__list-item.css);
+@import url(./__list-icon/about__list-icon.css);
+@import url(./__list-text/about__list-text.css);
+
+.about {
+background-color: #151313;
+padding-bottom: 100px;
+}
