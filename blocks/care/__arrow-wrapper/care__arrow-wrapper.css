@@ -1,0 +1,15 @@
+.care__arrow-wrapper {
+  width: 60px;
+  height: 100%;
+  background-color: #A07B50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .care__arrow-wrapper {
+    width: 46px;
+    height: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.care__list-item {
+  width: 560px;
+  height: 165px;
+  border: 0.5px solid #A07B50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color ease-out .5s;
+}
+
+.care__list-item:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 600px) {
+  .care__list-item {
+    width: 290px;
+    height: 150px;
+  }
+}

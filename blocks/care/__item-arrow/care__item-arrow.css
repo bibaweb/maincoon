@@ -1,0 +1,14 @@
+.care__item-arrow {
+  width: 16px;
+  height: 11px;
+  background-image: url(../../../images/arrow_desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .care__item-arrow {
+    width: 18px;
+    height: 8px;
+  }
+}

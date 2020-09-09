@@ -1,0 +1,16 @@
+@import url(./__title/care__title.css);
+@import url(./__list/care__list.css);
+@import url(./__list-item/care__list-item.css);
+@import url(./__item-info/care__item-info.css);
+@import url(./__item-title/care__item-title.css);
+@import url(./__item-text/care__item-text.css);
+@import url(./__arrow-wrapper/care__arrow-wrapper.css);
+@import url(./__item-arrow/care__item-arrow.css);
+
+.care {
+  margin: 0 auto;
+  padding-bottom: 110px;
+  background-image: url(../../images/bgcat.png);
+  background-position: center;
+  background-size: cover;
+}
