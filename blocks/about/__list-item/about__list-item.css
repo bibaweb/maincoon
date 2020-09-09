@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 600px) {
   .about__list-item {
-    width: 260px;
-    height: 260px;
+    width: 290px;
+    height: 250px;
   }
 }

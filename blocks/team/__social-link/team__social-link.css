@@ -1,0 +1,7 @@
+.team__social-link {
+  transition: opacity ease-out 1s;
+}
+
+.team__social-link:hover {
+  opacity: .4;
+}

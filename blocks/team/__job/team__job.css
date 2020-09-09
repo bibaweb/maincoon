@@ -1,0 +1,18 @@
+.team__job {
+  margin: 10px 0 0;
+  padding: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.375;
+  color: #A07B50;
+}
+
+@media screen and (max-width: 600px) {
+  .team__job {
+    margin-top: 5px;
+    font-size: 0.875rem;
+    line-height: 1.357;
+  }
+}

@@ -1,0 +1,11 @@
+.team__social-icon {
+  width: 18px;
+  height: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  .team__social-icon {
+    width: 15px;
+    height: 15px;
+  }
+}

@@ -1,0 +1,17 @@
+.team__name {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.16;
+  color: #A07B50;
+}
+
+@media screen and (max-width: 600px) {
+  .team__name {
+    margin-top: 50px;
+    font-size: 1.125rem;
+  }
+}

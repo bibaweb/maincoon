@@ -1,0 +1,22 @@
+.team__wrapper {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1100px) {
+  .team__wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .team__wrapper {
+    margin-top: -15px;
+    flex-direction: column;
+
+  }
+}

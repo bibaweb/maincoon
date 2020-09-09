@@ -1,0 +1,9 @@
+.team__description {
+  width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .team__description {
+    width: 270px;
+  }
+}

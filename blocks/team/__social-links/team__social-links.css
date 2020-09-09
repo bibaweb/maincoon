@@ -1,0 +1,13 @@
+.team__social-links {
+  list-style-type: none;
+  margin: 45px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+  .team__social-links {
+    margin-top: 30px;
+  }
+}

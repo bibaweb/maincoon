@@ -1,0 +1,13 @@
+.team__social-item {
+  margin-right: 10px;
+}
+
+.team__social-item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .team__social-item {
+    margin-right: 15px;
+  }
+}
