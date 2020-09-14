@@ -1,0 +1,9 @@
+.qa__description {
+  width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .qa__description {
+    width: 190px;
+  }
+}

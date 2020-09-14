@@ -1,0 +1,16 @@
+.qa__question-wrapper {
+  border: 0.5px solid rgba(160, 123, 80, 0.4);
+  width: 800px;
+}
+
+@media screen and (max-width: 1000px) {
+  .qa__question-wrapper {
+    width: 555px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .qa__question-wrapper {
+    width: 290px;
+  }
+}

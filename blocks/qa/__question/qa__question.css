@@ -1,0 +1,29 @@
+.qa__question {
+  margin: 0;
+  padding: 0 0 0 42px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 620px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.18;
+  color: #DDD0C3;
+}
+
+@media screen and (max-width: 1000px) {
+  .qa__question {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .qa__question {
+    padding-left: 15px;
+    width: 220px;
+    font-size: 0.875rem;
+    line-height: 1.42;
+  }
+}

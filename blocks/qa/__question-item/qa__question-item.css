@@ -1,0 +1,21 @@
+.qa__question-item {
+  margin-bottom: 37px;
+  display: flex;
+  flex-direction: row;
+}
+
+.qa__question-item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .qa__question-item {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .qa__question-item {
+    margin-bottom: 30px;
+  }
+}

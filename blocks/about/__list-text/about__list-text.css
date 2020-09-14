@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 600px) {
   .about__list-text {
+    width: 200px;
     font-size: 0.875rem;
     line-height: 1.42;
   }

@@ -1,0 +1,26 @@
+.qa__answer {
+  margin: 0;
+  padding: 40px 0 45px 42px;
+  width: 550px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.56;
+  color: #DDD0C3;
+}
+
+@media screen and (max-width: 1000px) {
+  .qa__answer {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .qa__answer {
+    padding-left: 15px;
+    width: 250px;
+    font-size: 0.875rem;
+    line-height: 1.42;
+  }
+}
