@@ -1,0 +1,15 @@
+.review__social-icon {
+  background-color: transparent;
+  border: 0.2px rgba(160, 123, 80, 0.27) solid;
+  padding: 7px 5px;
+  width: 14px;
+  height: 9px;
+}
+
+@media screen and (max-width: 600px) {
+  .review__social-icon {
+    padding: 7px 8px;
+    width: 16px;
+    height: 16px;
+  }
+}

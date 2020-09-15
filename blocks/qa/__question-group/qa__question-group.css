@@ -3,4 +3,5 @@
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 0.5px solid rgba(160, 123, 80, 0.4);
+  cursor: pointer;
 }

@@ -1,0 +1,34 @@
+.review__photo {
+  object-fit: cover;
+  width: 529px;
+  height: 352px;
+  position: relative;
+  top: 30px;
+  right: -80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .review__photo {
+    width: 430px;
+    height: 286px;
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .review__photo {
+    width: 320px;
+    height: 220px;
+    top: 120px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .review__photo {
+    width: 230px;
+    height: 153px;
+    top: 50px;
+    right: 0;
+  }
+}

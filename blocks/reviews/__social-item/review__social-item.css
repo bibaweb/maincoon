@@ -1,0 +1,19 @@
+.review__social-item {
+  margin-right: 10px;
+}
+
+.review__social-item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .review__social-item {
+    margin-right: 17px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .review__social-item {
+    margin-right: 15px;
+  }
+}

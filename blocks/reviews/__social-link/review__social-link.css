@@ -1,0 +1,7 @@
+.review__social-link {
+  transition: opacity ease-out 1s;
+}
+
+.review__social-link:hover {
+  opacity: .4;
+}

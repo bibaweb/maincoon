@@ -1,0 +1,29 @@
+@import url(./__title/review__title.css);
+@import url(./__description/review__description.css);
+@import url(./__wrapper/review__wrapper.css);
+@import url(./__photo/review__photo.css);
+@import url(./__info/review__info.css);
+@import url(./__name/review__name.css);
+@import url(./__text/review__text.css);
+@import url(./__social-item/review__social-item.css);
+@import url(./__social-links/review__social-links.css);
+@import url(./__date/review__date.css);
+@import url(./__social-link/review__social-link.css);
+@import url(./__social-icon/review__social-icon.css);
+
+.reviews {
+  margin: 0 auto;
+  padding-bottom: 110px;
+}
+
+@media screen and (max-width: 900px) {
+  .reviews {
+    padding-bottom: 87px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .reviews {
+    padding-bottom: 60px;
+  }
+}

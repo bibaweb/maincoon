@@ -1,0 +1,34 @@
+.review__info {
+  width: 500px;
+  height: 408px;
+  padding-left: 120px;
+  background-color: #151313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .review__info {
+    width: 380px;
+    height: 368px;
+    padding-left: 80px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .review__info {
+    align-items: center;
+    padding-left: 0;
+    width: 578px;
+    height: 368px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .review__info {
+    width: 290px;
+    height: 100%;
+    background-color: #181617;
+  }
+}
