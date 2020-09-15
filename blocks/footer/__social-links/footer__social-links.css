@@ -1,0 +1,22 @@
+.footer__social-links {
+  list-style-type: none;
+  margin: 0 155px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__social-links {
+    margin-right: 120px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer__social-links {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+}

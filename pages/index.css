@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/title/title.css);
@@ -24,4 +25,4 @@
 @import url(../blocks/team/team.css);
 @import url(../blocks/qa/qa.css);
 @import url(../blocks/reviews/reviews.css);
-
+@import url(../blocks/footer/footer.css);

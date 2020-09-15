@@ -1,0 +1,12 @@
+.footer__social-icon {
+  background-color: transparent;
+  width: 22px;
+  height: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__social-icon {
+    width: 25px;
+    height: 22px;
+  }
+}

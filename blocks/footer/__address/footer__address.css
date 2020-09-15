@@ -1,0 +1,23 @@
+.footer__address {
+  margin: 0 70px 0 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.92;
+  color: rgba(253, 242, 230, 0.83);
+}
+
+@media screen and (max-width: 900px) {
+  .footer__address {
+    margin-right: 75px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer__address {
+    margin-right: 0;
+    margin-bottom: 25px;
+    line-height: 1.42;
+  }
+}

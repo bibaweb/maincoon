@@ -1,0 +1,17 @@
+.footer__phone {
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.92;
+  color: #FDF2E6;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__phone {
+    margin-bottom: 20px;
+    line-height: 1.42;
+  }
+}

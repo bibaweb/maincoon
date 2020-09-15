@@ -4,12 +4,14 @@
   flex-direction: row;
   justify-content: center;
   position: relative;
+  padding-bottom: 70px;
 }
 
 @media screen and (max-width: 1100px) {
   .team__wrapper {
     flex-direction: column-reverse;
     align-items: center;
+    padding-bottom: 0;
   }
 }
 
@@ -17,6 +19,6 @@
   .team__wrapper {
     margin-top: -15px;
     flex-direction: column;
-
+    padding-bottom: 40px;
   }
 }

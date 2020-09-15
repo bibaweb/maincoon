@@ -14,18 +14,5 @@
 
 .team {
   margin: 0 auto;
-  padding-bottom: 70px;
   background-color: #151313;
-}
-
-@media screen and (max-width: 900px) {
-  .team {
-    padding-bottom: 95px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .team {
-    padding-bottom: 60px;
-  }
 }

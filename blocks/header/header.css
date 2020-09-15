@@ -14,8 +14,10 @@
 .header {
   background-color: #181617;
   margin: 0 auto;
+  width: 100%;
   padding-top: 35px;
   position: relative;
+  flex: none;
 }
 
 /* ПРОВЕРИТЬ*/

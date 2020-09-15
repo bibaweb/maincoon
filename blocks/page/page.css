@@ -1,7 +1,8 @@
 .page {
   width: 100%;
-  background-color: #1f1c1d;
+  min-height: 100vh;
   margin: 0 auto;
+  background-color: #1f1c1d;
   font-size: 16px;
   font-family: "Roboto", "Yeseva One", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -9,6 +10,9 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  /* sticky footer */
+  display: flex;
+  flex-direction: column;
 }
 /* 
 .h2 {
