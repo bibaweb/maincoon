@@ -1,24 +1,27 @@
-.team__wrapper {
+.team__content {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   position: relative;
-  padding-bottom: 70px;
+  /* для слайдера */
+  flex-basis: 50%;
+  /* width: 50%; */
+  flex-shrink: 0;
+  /* flex: 1; */
 }
 
-@media screen and (max-width: 1100px) {
-  .team__wrapper {
+@media screen and (max-width: 1150px) {
+  .team__content {
     flex-direction: column-reverse;
     align-items: center;
-    padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .team__wrapper {
+  .team__content {
     margin-top: -15px;
     flex-direction: column;
-    padding-bottom: 40px;
   }
 }

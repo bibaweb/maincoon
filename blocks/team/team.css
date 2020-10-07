@@ -1,6 +1,11 @@
 @import url(./__title/team__title.css);
 @import url(./__description/team__description.css);
-@import url(./__wrapper/team__wrapper.css);
+@import url(./__carousel/team__carousel.css);
+@import url(./__slider/team__slider.css);
+@import url(./__controls/team__controls.css);
+@import url(./__prev-arrow/team__prev-arrow.css);
+@import url(./__next-arrow/team__next-arrow.css);
+@import url(./__content/team__content.css);
 @import url(./__photo/team__photo.css);
 @import url(./__info-group/team__info-group.css);
 @import url(./__info/team__info.css);
@@ -15,4 +20,17 @@
 .team {
   margin: 0 auto;
   background-color: #151313;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1150px) {
+  .team {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .team {
+    padding-bottom: 40px;
+  }
 }

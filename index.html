@@ -9,7 +9,7 @@
 </head>
 
 <body class="page">
-  <header class="header">
+  <!-- <header class="header">
     <img src="./images/icon-crown.svg" alt="Логотип" class="header__logo">
 
     <div class="header__info">
@@ -40,12 +40,12 @@
       </ul>
     </div>
     <div class="header__main-pic"></div>
-  </header>
+  </header> -->
 
   <main class="content">
     <section class="pets section">
       <h2 class="pets__title title" name="pets">Питомцы</h2>
-      <p class="pets__description description">Все представители нашего питомника имеют ветеринарный паспорт 
+      <p class="pets__description description">Все представители нашего питомника имеют ветеринарный паспорт
         с отметками о прививках и документ с родословной</p>
       <ul class="pets__menu">
         <li class="pets__menu-item pets__menu-item_active">Коты</li>
@@ -58,9 +58,9 @@
         <img src="./images/grid-cat2.jpg" alt="Коричневый кот" class="pets__grid-item pets__grid-item_type_down">
       </div>
       <button class="pets__button button" type="button">Смотреть больше</button>
-    </section>
+    </section> 
 
-    <section class="features section">
+    <!-- <section class="features section">
       <h2 class="features__title title">Особенности породы</h2>
       <p class="features__description description">Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в
         свой дом этого питомца,
@@ -81,8 +81,8 @@
           </li>
         </ul>
       </div>
-    </section>
-
+    </section> 
+    
     <section class="about section">
       <h2 class="about__title title">Почему именно мы?</h2>
       <p class="about__description description">Приобретая животное в нашем питомнике, вы получите нашу гарантированную
@@ -90,7 +90,7 @@
       <ul class="about__list">
         <li class="about__list-item">
           <div class="about__list-wrapper">
-            <img class="about__list-icon" src="./images/health2.svg" alt="Иконка Здоровье">
+            <img class="about__list-icon" src="./images/health.svg" alt="Иконка Здоровье">
             <p class="about__list-text">Бесплатное ветеринарное обслуживание 5 лет</p>
           </div>
         </li>
@@ -160,33 +160,68 @@
       <h2 class="team__title title">Наша команда</h2>
       <p class="team__description description">Все сотрудники нашего питомника дипломированые специалисты
         в области фелинологии и ветеринарии</p>
-      <div class="team__wrapper">
-        <img class="team__photo" src="./images/team_pic.png" alt="Серёжа Попов">
-        <div class="team__info-group">
-          <div class="team__info">
-            <h4 class="team__name">Серёжа Попов</h4>
-            <p class="team__job">Основатель питомника</p>
-            <p class="team__text">Наш питомник занимается разведением Мейн-Кунов
-              на протяжении 15 лет. Мы в ответе за каждого
-              приобретенного вами питомца</p>
-            <ul class="team__social-links">
-              <li class="team__social-item">
-                <a class="team__social-link" href="https://facebook.com/" target="_blank">
-                  <img class="team__social-icon" alt="facebook logo" src="./images/facebook-icon.svg">
-                </a>
-              </li>
-              <li class="team__social-item">
-                <a class="team__social-link" href="https://twitter.com/" target="_blank">
-                  <img class="team__social-icon" alt="twitter logo" src="./images/twitter-icon.svg">
-                </a>
-              </li>
-              <li class="team__social-item">
-                <a class="team__social-link" href="https://vk.com/" target="_blank">
-                  <img class="team__social-icon" alt="vkontakte logo" src="./images/vk-icon.svg">
-                </a>
-              </li>
-            </ul>
+      <div class="team__carousel">
+        <div class="team__slider">
+          <div class="team__content">
+            <img class="team__photo" src="./images/team_pic.png" alt="Серёжа Попов">
+            <div class="team__info-group">
+              <div class="team__info">
+                <h4 class="team__name">Серёжа Попов</h4>
+                <p class="team__job">Основатель питомника</p>
+                <p class="team__text">Наш питомник занимается разведением Мейн-Кунов
+                  на протяжении 15 лет. Мы в ответе за каждого
+                  приобретенного вами питомца</p>
+                <ul class="team__social-links">
+                  <li class="team__social-item">
+                    <a class="team__social-link" href="https://facebook.com/" target="_blank">
+                      <img class="team__social-icon" alt="facebook logo" src="./images/facebook-icon.svg">
+                    </a>
+                  </li>
+                  <li class="team__social-item">
+                    <a class="team__social-link" href="https://twitter.com/" target="_blank">
+                      <img class="team__social-icon" alt="twitter logo" src="./images/twitter-icon.svg">
+                    </a>
+                  </li>
+                  <li class="team__social-item">
+                    <a class="team__social-link" href="https://vk.com/" target="_blank">
+                      <img class="team__social-icon" alt="vkontakte logo" src="./images/vk-icon.svg">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
+          <div class="team__content">
+            <img class="team__photo" src="./images/team_olga.jpeg" alt="Ольга Еcина">
+            <div class="team__info-group">
+              <div class="team__info">
+                <h4 class="team__name">Ольга Еcина</h4>
+                <p class="team__job">Ветеринар</p>
+                <p class="team__text">В прошлой жизни была мейнкуном – знаю о них всё!</p>
+                <ul class="team__social-links">
+                  <li class="team__social-item">
+                    <a class="team__social-link" href="https://facebook.com/" target="_blank">
+                      <img class="team__social-icon" alt="facebook logo" src="./images/facebook-icon.svg">
+                    </a>
+                  </li>
+                  <li class="team__social-item">
+                    <a class="team__social-link" href="https://twitter.com/" target="_blank">
+                      <img class="team__social-icon" alt="twitter logo" src="./images/twitter-icon.svg">
+                    </a>
+                  </li>
+                  <li class="team__social-item">
+                    <a class="team__social-link" href="https://vk.com/" target="_blank">
+                      <img class="team__social-icon" alt="vkontakte logo" src="./images/vk-icon.svg">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="team__controls">
+          <button class="team__prev-arrow" type="button"></button>
+          <button class="team__next-arrow" type="button"></button>
         </div>
       </div>
     </section>
@@ -234,7 +269,8 @@
           <p class="qa__number">03</p>
           <div class="qa__question-wrapper">
             <div class="qa__question-group">
-              <p class="qa__question">Можно ли купить кота, если я живу в другом городе? Можно ли купить кота, если я живу в другом городе?</p>
+              <p class="qa__question">Можно ли купить кота, если я живу в другом городе? Можно ли купить кота, если я
+                живу в другом городе?</p>
               <div class="qa__plus"></div>
             </div>
             <p class="qa__answer"></p>
@@ -255,7 +291,7 @@
               Витамины;
               Лежанка;
               Игрушки
-              </p>
+            </p>
           </div>
         </li>
       </ul>
@@ -285,7 +321,7 @@
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
   </main>
 
   <footer class="footer">
@@ -313,10 +349,11 @@
     <a class="footer__phone" href="tel:+73839006465">+7 (383) 900-64-65</a>
   </footer>
 </body>
+<script src="./pages/index.js"></script>
 
 </html>
 
-            <!-- <li class="review__social-item">
+<!-- <li class="review__social-item">
                 <a class="review__social-link" href="https://facebook.com/" target="_blank">
                   <img class="review__social-icon" alt="facebook logo" src="./images/facebook-icon.svg">
                 </a>
