@@ -39,5 +39,3 @@ slider.addEventListener('transitionend', function() {
     slider.style.transition = 'all .5s ease-out';
   })
 }, false)
-
-//Слайдер в разделе Питомцы https://www.cssscript.com/flip-element-carousel/

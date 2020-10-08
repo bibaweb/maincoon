@@ -37,4 +37,32 @@
     top: 104px;
     left: 80px;
   }
+} 
+
+/* .team__prev-arrow {
+  top: 215px;
+  left: 0;
 }
+
+@media screen and (max-width: 1150px) {
+  .team__prev-arrow {
+    top: 508px;
+    bottom: 0;
+    right: 0;
+    left: 345px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .team__prev-arrow {
+    top: 490px;
+    left: 230px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .team__prev-arrow {
+    top: 104px;
+    left: 80px;
+  }
+} */

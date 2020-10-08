@@ -1,0 +1,11 @@
+.pets__controls {
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1100px) {
+  .pets__controls {
+    display: flex;
+    margin: 60px auto;
+  }
+}

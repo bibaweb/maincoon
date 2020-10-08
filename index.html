@@ -52,13 +52,18 @@
         <li class="pets__menu-item">Кошки</li>
         <li class="pets__menu-item">Котята</li>
       </ul>
-      <div class="pets__grid">
-        <img src="./images/grid-cat1.jpg" alt="Белый кот" class="pets__grid-item pets__grid-item_type_upper">
-        <img src="./images/grid-cat3.png" alt="Черный кот" class="pets__grid-item pets__grid-item_type_big">
-        <img src="./images/grid-cat2.jpg" alt="Коричневый кот" class="pets__grid-item pets__grid-item_type_down">
+      <div class="pets__slider">
+        <div class="pets__gallery">
+          <img src="./images/gallery-cat1.jpg" alt="Белый кот" class="pets__gallery-item pets__gallery-item_type_upper">
+          <img src="./images/gallery-cat3.png" alt="Черный кот" class="pets__gallery-item pets__gallery-item_type_big">
+          <img src="./images/gallery-cat2.jpg" alt="Коричневый кот" class="pets__gallery-item pets__gallery-item_type_down">
+        </div>
+        <div class="pets__controls">
+          <!-- Кнопки добавляются в pets__carousel.js -->
+        </div>
       </div>
       <button class="pets__button button" type="button">Смотреть больше</button>
-    </section> 
+    </section>
 
     <!-- <section class="features section">
       <h2 class="features__title title">Особенности породы</h2>
@@ -154,7 +159,7 @@
           </div>
         </li>
       </ul>
-    </section>
+    </section> -->
 
     <section class="team section">
       <h2 class="team__title title">Наша команда</h2>
@@ -226,7 +231,7 @@
       </div>
     </section>
 
-    <section class="qa section">
+    <!-- <section class="qa section">
       <h2 class="qa__title title">Вопрос-Ответ</h2>
       <p class="qa__description description">Мы ответим на ваши самые популярные вопросы</p>
       <ul class="qa__questions-list">
@@ -350,6 +355,9 @@
   </footer>
 </body>
 <script src="./pages/index.js"></script>
+<script src="./scripts/pets__carousel.js"></script>
+<!-- <script src="./scripts/team_slider.js"></script>
+<script src="./scripts/pets_slider.js"></script> -->
 
 </html>
 

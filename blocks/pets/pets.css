@@ -2,9 +2,13 @@
 @import url(./__description/pets__description.css);
 @import url(./__menu/pets__menu.css);
 @import url(./__menu-item/pets__menu-item.css);
-@import url(./__grid/pets__grid.css);
-@import url(./__grid-item/pets__grid-item.css);
+@import url(./__slider/pets__slider.css);
+@import url(./__gallery/pets__gallery.css);
+@import url(./__gallery-item/pets__gallery-item.css);
 @import url(./__button/pets__button.css);
+@import url(./__controls/pets__controls.css);
+@import url(./__prev-arrow/pets__prev-arrow.css);
+@import url(./__next-arrow/pets__next-arrow.css);
 
 .pets {
   margin: 0 auto;

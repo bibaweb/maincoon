@@ -1,7 +1,5 @@
-.team__next-arrow {
+.pets__next-arrow {
   position: absolute;
-  top: 215px;
-  left: 1085px;
   background-image: url(../../../images/arrow-gold_right.svg);
   background-color: transparent;
   background-repeat: no-repeat;
@@ -11,26 +9,28 @@
   outline: none;
   border: none;
   cursor: pointer;
+  display: none;
 }
 
-@media screen and (max-width: 1150px) {
-  .team__next-arrow {
-    top: 508px;
+@media screen and (max-width: 1100px) {
+  .pets__next-arrow {
+    display: block;
+    top: 0;
     bottom: 0;
     right: 0;
-    left: 640px;
+    left: 20px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .team__next-arrow {
+  .pets__next-arrow {
     top: 490px;
     left: 516px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .team__next-arrow {
+  .pets__next-arrow {
     background-size: 8px 18px;
     width: 8px;
     height: 18px;
@@ -39,13 +39,13 @@
   }
 }
 
-/* .team__next-arrow {
+/* .pets__next-arrow {
   top: 215px;
   left: 1085px;
 }
 
 @media screen and (max-width: 1150px) {
-  .team__next-arrow {
+  .pets__next-arrow {
     top: 508px;
     bottom: 0;
     right: 0;
@@ -54,14 +54,14 @@
 }
 
 @media screen and (max-width: 900px) {
-  .team__next-arrow {
+  .pets__next-arrow {
     top: 490px;
     left: 516px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .team__next-arrow {
+  .pets__next-arrow {
     top: 104px;
     left: 232px;
   }

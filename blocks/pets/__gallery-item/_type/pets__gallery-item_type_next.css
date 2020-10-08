@@ -1,0 +1,5 @@
+.pets__gallery-item_type_next {
+  left: 80%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
