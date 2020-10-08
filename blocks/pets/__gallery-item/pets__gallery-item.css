@@ -1,5 +1,6 @@
 .pets__gallery-item {
   cursor: pointer;
+  /* box-sizing: border-box; */
   box-shadow: none;
   transition: box-shadow ease-out .5s;
 }
@@ -10,7 +11,6 @@
 
 @media screen and (max-width: 1100px) {
   .pets__gallery-item {
-    display: block;
     position: absolute;
     transition: all 0.3s ease-in-out;
     z-index: 0;
