@@ -15,54 +15,15 @@
 @media screen and (max-width: 1100px) {
   .pets__prev-arrow {
     display: block;
-    /* top: -200px;
+    top: 50%;
+    left: 14px;
     bottom: 0;
     right: 0;
-    left: 140px; */
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   .pets__prev-arrow {
-    top: 490px;
-    left: 230px;
+    left: 5%;
   }
 }
-
-@media screen and (max-width: 600px) {
-  .pets__prev-arrow {
-    background-size: 8px 18px;
-    width: 8px;
-    height: 18px;
-    top: 104px;
-    left: 80px;
-  }
-}
-
-/* .pets__prev-arrow {
-  top: 215px;
-  left: 0;
-}
-
-@media screen and (max-width: 1150px) {
-  .pets__prev-arrow {
-    top: 508px;
-    bottom: 0;
-    right: 0;
-    left: 345px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .pets__prev-arrow {
-    top: 490px;
-    left: 230px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .pets__prev-arrow {
-    top: 104px;
-    left: 80px;
-  }
-} */

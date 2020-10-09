@@ -1,8 +1,8 @@
 .pets__gallery-item {
   cursor: pointer;
-  /* box-sizing: border-box; */
   box-shadow: none;
-  transition: box-shadow ease-out .5s;
+  box-sizing: border-box;
+  transition: box-shadow ease-out 0.5s;
 }
 
 .pets__gallery-item:hover {
@@ -14,5 +14,15 @@
     position: absolute;
     transition: all 0.3s ease-in-out;
     z-index: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pets__gallery-item {
+    max-width: 75%;
+    /* для слайдера */
+    /* flex-basis: 33%;
+    width: 33%;
+    flex-shrink: 0; */
   }
 }
