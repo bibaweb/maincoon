@@ -1,3 +1,18 @@
+//Аккордеон в разделе Вопросы и ответы
+const questions = Array.from(document.querySelectorAll('.qa__question-button'));
+
+questions.forEach(question => {
+  question.addEventListener('click', function() {
+    question.classList.toggle('qa__question-button_active');
+
+    //найти ближайшего брата с классом qa__answer
+    let answer = this.nextElementSibling;
+    //у qa__answer добавить или убрать модификатор _open, 
+    answer.classList.toggle('qa__answer_open');
+  })
+})
+
+
 //Слайдер в разделе Наша команда по видео https://www.youtube.com/watch?v=0YMntQg-WIk + его первый коммент
 //Работает неправильно, слайды прокручиваются
 //Назначить изменяемые стили через модификаторы

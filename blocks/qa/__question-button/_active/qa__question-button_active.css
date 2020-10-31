@@ -1,0 +1,7 @@
+.qa__question-button_active::after {
+  background: url(../../../../images/minus.svg) no-repeat center;
+}
+
+.qa__question-button_active:hover::after { 
+  transform: rotate(0);
+}

@@ -10,7 +10,7 @@
   transition: background-color linear .3s;
 }
 
-.about__list-item .about__list-wrapper:hover {
+.about__list-item:hover .about__list-wrapper {
   background-color: #A07B50;
 }
 

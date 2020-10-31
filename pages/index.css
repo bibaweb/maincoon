@@ -27,5 +27,7 @@
 @import url(../blocks/care/care.css);
 @import url(../blocks/team/team.css);
 @import url(../blocks/qa/qa.css);
+@import url(../blocks/qa/__question-button/_active/qa__question-button_active.css);
+@import url(../blocks/qa/__answer/_open/qa__answer_open.css);
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/footer/footer.css);
