@@ -1,4 +1,4 @@
-.team__content {
+.team__slide {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
@@ -7,20 +7,20 @@
   position: relative;
   /* для слайдера */
   flex-basis: 50%;
-  /* width: 50%; */
   flex-shrink: 0;
+  /* width: 50%; */
   /* flex: 1; */
 }
 
 @media screen and (max-width: 1150px) {
-  .team__content {
+  .team__slide {
     flex-direction: column-reverse;
     align-items: center;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .team__content {
+  .team__slide {
     margin-top: -15px;
     flex-direction: column;
   }

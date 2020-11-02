@@ -12,7 +12,5 @@
 
 @media screen and (max-width: 700px) {
   .pets__gallery-item_type_selected {
-    /* left: 50%;
-    transform: translateX(-50%); */
   }
 }

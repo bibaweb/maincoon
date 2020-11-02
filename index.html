@@ -9,7 +9,7 @@
 </head>
 
 <body class="page">
-  <!-- <header class="header">
+  <header class="header">
     <img src="./images/icon-crown.svg" alt="Логотип" class="header__logo">
 
     <div class="header__info">
@@ -40,10 +40,10 @@
       </ul>
     </div>
     <div class="header__main-pic"></div>
-  </header> -->
+  </header>
 
   <main class="content">
-    <!-- <section class="pets section">
+    <section class="pets section">
       <h2 class="pets__title title" name="pets">Питомцы</h2>
       <p class="pets__description description">Все представители нашего питомника имеют ветеринарный паспорт
         с отметками о прививках и документ с родословной</p>
@@ -166,9 +166,9 @@
       <h2 class="team__title title">Наша команда</h2>
       <p class="team__description description">Все сотрудники нашего питомника дипломированые специалисты
         в области фелинологии и ветеринарии</p>
-      <div class="team__carousel">
+      <div class="team__wrap">
         <div class="team__slider">
-          <div class="team__content">
+          <div class="team__slide">
             <img class="team__photo" src="./images/team_pic.png" alt="Серёжа Попов">
             <div class="team__info-group">
               <div class="team__info">
@@ -197,12 +197,12 @@
               </div>
             </div>
           </div>
-          <div class="team__content">
+          <div class="team__slide">
             <img class="team__photo" src="./images/team_olga.jpeg" alt="Ольга Еcина">
             <div class="team__info-group">
               <div class="team__info">
                 <h4 class="team__name">Ольга Еcина</h4>
-                <p class="team__job">Ветеринар</p>
+                <p class="team__job">Фелинолог</p>
                 <p class="team__text">В прошлой жизни была мейнкуном – знаю о них всё!</p>
                 <ul class="team__social-links">
                   <li class="team__social-item">
@@ -226,11 +226,11 @@
           </div>
         </div>
         <div class="team__controls">
-          <button class="team__prev-arrow" type="button"></button>
-          <button class="team__next-arrow" type="button"></button>
+          <button class="team__arrow team__arrow_type_prev" type="button"></button>
+          <button class="team__arrow team__arrow_type_next" type="button"></button>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <section class="qa section">
       <h2 class="qa__title title">Вопрос-Ответ</h2>
@@ -297,26 +297,78 @@
 
     <section class="reviews section">
       <h2 class="review__title title">Отзывы</h2>
-      <div class="review__wrapper">
-        <img class="review__photo" src="./images/reviews_photo.jpg" alt="Василиса Лазарева">
-        <div class="review__info">
-          <h4 class="review__name">Василиса Лазарева</h4>
-          <p class="review__text">Я выражаю огромную благодарность вашему питомнику. Мой Феликс невероятно умен и
-            воспитан. Огромным плюсом питомника является возможность консультироваться
-            в любое время</p>
-          <ul class="review__social-links">
-            <li class="review__date">24 мая 2019</li>
-            <li class="review__social-item">
-              <a class="review__social-link" href="https://twitter.com/" target="_blank">
-                <img class="review__social-icon" alt="twitter logo" src="./images/twitter_gold.svg">
-              </a>
-            </li>
-            <li class="review__social-item">
-              <a class="review__social-link" href="https://vk.com/" target="_blank">
-                <img class="review__social-icon" alt="vkontakte logo" src="./images/vk_gold.svg">
-              </a>
-            </li>
-          </ul>
+      <div class="review__wrap">
+        <button class="review__arrow review__arrow_type_prev" type="button"></button>
+        <button class="review__arrow review__arrow_type_next" type="button"></button>
+        <div class="review__slider">
+          <div class="review__slide">
+            <img class="review__photo" src="./images/reviews_photo1.jpg" alt="Василиса Лазарева">
+            <div class="review__info">
+              <h4 class="review__name">Василиса Лазарева</h4>
+              <p class="review__text">Я выражаю огромную благодарность вашему питомнику. Мой Феликс невероятно умен и
+                воспитан. Огромным плюсом питомника является возможность консультироваться
+                в любое время, за что спасибо Сергею.</p>
+              <ul class="review__social-links">
+                <li class="review__date">24 мая 2019</li>
+                <li class="review__social-item">
+                  <a class="review__social-link" href="https://twitter.com/" target="_blank">
+                    <img class="review__social-icon" alt="twitter logo" src="./images/twitter_gold.svg">
+                  </a>
+                </li>
+                <li class="review__social-item">
+                  <a class="review__social-link" href="https://vk.com/" target="_blank">
+                    <img class="review__social-icon" alt="vkontakte logo" src="./images/vk_gold.svg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="review__slide">
+            <img class="review__photo" src="./images/reviews_photo2.jpg" alt="Василиса Лазарева">
+            <div class="review__info">
+              <h4 class="review__name">Татьяна Бубко</h4>
+              <p class="review__text">Месяц назад забрали нашего Персика и счастью нашему нет придела. Персик самый
+                ласковый и воспитанный на свете! Ходит в лоток 100%, не лазает на столы, по ночам спит с нами в постели!
+                Это чудо, а не ребенок! Я не знала, что можно так сильно влюбиться в кота! Спасибо Ольге за нашего
+                Персика!</p>
+              <ul class="review__social-links">
+                <li class="review__date">24 мая 2019</li>
+                <li class="review__social-item">
+                  <a class="review__social-link" href="https://twitter.com/" target="_blank">
+                    <img class="review__social-icon" alt="twitter logo" src="./images/twitter_gold.svg">
+                  </a>
+                </li>
+                <li class="review__social-item">
+                  <a class="review__social-link" href="https://vk.com/" target="_blank">
+                    <img class="review__social-icon" alt="vkontakte logo" src="./images/vk_gold.svg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="review__slide">
+            <img class="review__photo" src="./images/reviews_photo.jpg" alt="Василиса Лазарева">
+            <div class="review__info">
+              <h4 class="review__name">Евгения М.</h4>
+              <p class="review__text">Огромное спасибо Ольге, консультанту фелинологу этого замечательного питомника!
+                Профессионал и знаток своего дела, видно что девушка знает и любит кошек, настоящий специалист по мей
+                кунам. Помогла подобрать мне котенка именно такого, в которого я влюбилась сразу! На все вопросы
+                отвечает четко и понятно, всегда на связи, а это очень ценно!</p>
+              <ul class="review__social-links">
+                <li class="review__date">24 мая 2019</li>
+                <li class="review__social-item">
+                  <a class="review__social-link" href="https://twitter.com/" target="_blank">
+                    <img class="review__social-icon" alt="twitter logo" src="./images/twitter_gold.svg">
+                  </a>
+                </li>
+                <li class="review__social-item">
+                  <a class="review__social-link" href="https://vk.com/" target="_blank">
+                    <img class="review__social-icon" alt="vkontakte logo" src="./images/vk_gold.svg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -349,13 +401,5 @@
 </body>
 <script src="./pages/index.js"></script>
 <script src="./scripts/pets__carousel.js"></script>
-<!-- <script src="./scripts/team_slider.js"></script>
-<script src="./scripts/pets_slider.js"></script> -->
-
+<script src="./scripts/reviews__slider.js"></script>
 </html>
-
-<!-- <li class="review__social-item">
-                <a class="review__social-link" href="https://facebook.com/" target="_blank">
-                  <img class="review__social-icon" alt="facebook logo" src="./images/facebook-icon.svg">
-                </a>
-              </li> -->

@@ -1,4 +1,4 @@
-.team__carousel {
+.team__wrap {
   width: 1100px;
   margin: 0 auto;
   position: relative;
@@ -8,19 +8,19 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .team__carousel {
+  .team__wrap {
     width: 700px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .team__carousel {
+  .team__wrap {
     width: 560px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .team__carousel {
+  .team__wrap {
     width: 320px;
   }
 }

@@ -17,10 +17,10 @@ questions.forEach(question => {
 //Работает неправильно, слайды прокручиваются
 //Назначить изменяемые стили через модификаторы
 
-const carousel = document.querySelector('.team__carousel');
+const carousel = document.querySelector('.team__wrap');
 const slider = document.querySelector('.team__slider');
-const prevArrow = document.querySelector('.team__prev-arrow');
-const nextArrow = document.querySelector('.team__next-arrow');
+const prevArrow = document.querySelector('.team__arrow_type_prev');
+const nextArrow = document.querySelector('.team__arrow_type_next');
 let direction = -1;
 
 nextArrow.addEventListener('click', function() {
@@ -54,5 +54,3 @@ slider.addEventListener('transitionend', function() {
     slider.style.transition = 'all .5s ease-out';
   })
 }, false)
-
-//Слайдер в разделе Питомцы https://www.cssscript.com/flip-element-carousel/

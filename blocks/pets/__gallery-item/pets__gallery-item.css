@@ -20,9 +20,5 @@
 @media screen and (max-width: 700px) {
   .pets__gallery-item {
     max-width: 75%;
-    /* для слайдера */
-    /* flex-basis: 33%;
-    width: 33%;
-    flex-shrink: 0; */
   }
 }

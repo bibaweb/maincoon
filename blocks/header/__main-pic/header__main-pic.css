@@ -10,12 +10,6 @@
   z-index: 1;
 }
 
-/* @media screen and (min-width: 1600px) {
-  .header__main-pic {
-    padding-right: 400px;
-  }
-} */
-
 @media screen and (max-width: 1300px) {
   .header__main-pic {
     width: 850px;

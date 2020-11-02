@@ -1,0 +1,18 @@
+.review__slide {
+  margin-top: 60px;
+  position: relative;
+  display: none;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 900px) {
+  .review__slide {
+    margin-top: -55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .review__slide {
+    margin-top: 0;
+  }
+}

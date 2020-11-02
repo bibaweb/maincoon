@@ -1,16 +1,15 @@
 .review__photo {
   object-fit: cover;
-  width: 529px;
-  height: 352px;
+  width: 490px;
+  height: 333px; 
   position: relative;
-  top: 30px;
   right: -80px;
 }
 
 @media screen and (max-width: 1200px) {
   .review__photo {
-    width: 430px;
-    height: 286px;
+    width: 320px;
+    height: 220px;
     right: -50px;
   }
 }

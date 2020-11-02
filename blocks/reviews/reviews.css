@@ -1,6 +1,9 @@
 @import url(./__title/review__title.css);
 @import url(./__description/review__description.css);
-@import url(./__wrapper/review__wrapper.css);
+@import url(./__wrap/review__wrap.css);
+@import url(./__slider/review__slider.css);
+@import url(./__arrow/review__arrow.css);
+@import url(./__slide/review__slide.css);
 @import url(./__photo/review__photo.css);
 @import url(./__info/review__info.css);
 @import url(./__name/review__name.css);

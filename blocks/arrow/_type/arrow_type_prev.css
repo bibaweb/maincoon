@@ -1,0 +1,28 @@
+.arrow_type_prev {
+  background-image: url(../../../../images/arrow-gold_left.svg);
+  top: 215px;
+  left: 0;
+}
+
+@media screen and (max-width: 1150px) {
+  .arrow_type_prev {
+    top: 508px;
+    bottom: 0;
+    right: 0;
+    left: 345px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .arrow_type_prev {
+    top: 490px;
+    left: 230px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .arrow_type_prev {
+    top: 104px;
+    left: 80px;
+  }
+} 

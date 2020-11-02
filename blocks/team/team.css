@@ -1,11 +1,10 @@
 @import url(./__title/team__title.css);
 @import url(./__description/team__description.css);
-@import url(./__carousel/team__carousel.css);
+@import url(./__wrap/team__wrap.css);
 @import url(./__slider/team__slider.css);
 @import url(./__controls/team__controls.css);
-@import url(./__prev-arrow/team__prev-arrow.css);
-@import url(./__next-arrow/team__next-arrow.css);
-@import url(./__content/team__content.css);
+@import url(./__arrow/team__arrow.css);
+@import url(./__slide/team__slide.css);
 @import url(./__photo/team__photo.css);
 @import url(./__info-group/team__info-group.css);
 @import url(./__info/team__info.css);

@@ -1,0 +1,25 @@
+.review__arrow_type_next {
+  background-image: url(../../../../images/arrow-gold_right.svg);
+  top: 50%;
+  left: 1085px;
+}
+
+@media screen and (max-width: 1200px) {
+  .review__arrow_type_next {
+    left: 849px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .review__arrow_type_next {
+    top: 150px;
+    left: 463px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .review__arrow_type_next {
+    top: 104px;
+    left: 295px;
+  }
+}
